@@ -62,7 +62,7 @@ a {
 a:hover {
   color: #F6A623;
 }
-.post, .about {
+.post, .SupportMe {
   max-width: 800px;
   margin: 0 auto;
   padding: 60px 0;
@@ -72,7 +72,7 @@ a:hover {
   height: 200px;
   vertical-align: middle;
 }
-.post-author img, .about-author img {
+.post-author img, .SupportMe-author img {
   border-radius: 50%;
 }
 .post-author span {
