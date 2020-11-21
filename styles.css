@@ -22,9 +22,8 @@ position: relative;
 
 #header {
   background-color: #00008B;
-  position: absolute;
-  height: 50px;
-  line-height: 50px;
+  height: 150px;
+  line-height: 150px;
   }
   #header a {
     color: white;
@@ -51,7 +50,8 @@ position: relative;
   padding-left: 20px;
 }
 .container {
-  max-width: 1000px;
+  max-width: 600px;
+  position: absolute;
   margin: 0 auto;
 }
 #footer {
