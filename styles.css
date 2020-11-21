@@ -113,9 +113,3 @@ p {
 .post-container:nth-child(even) {
   background-color: #f2f2f2;
 }
-.LI-profile-badge {
-  float: right;
-}
-.LI-simple-link {
-  float: right;
-}
