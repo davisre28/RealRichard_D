@@ -114,12 +114,12 @@ p {
   background-color: #f2f2f2;
 }
 .LI-profile-badge {
-  display: inline-block;
+  display: block;
   margin-left: 240px;
   margin-right: 0px;
 }
 .LI-simple-link {
-  display: inline-block;
+  display: block;
   margin-left: 240px;
   margin-right: 0px;
 }
