@@ -115,11 +115,11 @@ p {
 }
 .LI-profile-badge {
   display: block;
-  margin-left: 240px;
-  margin-right: 0px;
+  margin-left: 120px;
+  float: right;
 }
 .LI-simple-link {
   display: block;
-  margin-left: 240px;
-  margin-right: 0px;
+  margin-left: 120px;
+  float: right;
 }
