@@ -22,7 +22,7 @@ position: relative;
 
 #header {
   background-color: #00008B;
-  position: absolute;
+  position:absolute;
   height: 50px;
   line-height: 50px;
   }
@@ -48,12 +48,10 @@ position: relative;
 }
 #header-nav li {
   display: inline;
-  position: absolute;
   padding-left: 20px;
 }
 .container {
   max-width: 1000px;
-  position: absolute;
   margin: 0 auto;
 }
 #footer {
