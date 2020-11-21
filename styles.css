@@ -15,7 +15,6 @@ body {
 
 .w3-content button {
 position: relative;
-top: 32%;
 }
 
 .w3-display-right {right:0}
@@ -24,8 +23,8 @@ top: 32%;
 #header {
   background-color: #00008B;
   position: absolute;
-  height: 100px;
-  line-height: 150px;
+  height: 50px;
+  line-height: 50px;
   }
   #header a {
     color: white;
