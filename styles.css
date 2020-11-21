@@ -14,7 +14,7 @@ body {
 .w3-button:hover{color:#000!important;background-color:#ccc!important}
 
 .w3-content button {
-position: absolute;
+position: relative;
 top: 32%;
 }
 
@@ -23,7 +23,8 @@ top: 32%;
 
 #header {
   background-color: #00008B;
-  height: 150px;
+  position: absolute;
+  height: 100px;
   line-height: 150px;
   }
   #header a {
