@@ -115,10 +115,10 @@ p {
 }
 /* Dropdown Button */
 .dropbtn {
-  background-color: #4CAF50;
+  background-color: #DC143C;
   color: black;
   padding: 16px;
-  font-size: 14px;
+  font-size: 16px;
   border: none;
 }
 
@@ -147,7 +147,7 @@ p {
 }
 
 /* Change color of dropdown links on hover */
-.dropdown-content a:hover {background-color: #DC143C;}
+.dropdown-content a:hover {background-color: #0000CD;}
 
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {display: block;}
