@@ -116,6 +116,7 @@ p {
 /* Dropdown Button */
 .dropbtn {
   font-family: 'Montserrat', sans-serif;
+  letter-spacing: 0.1em;
   background-color: #DC143C;
   color: white;
   padding: 14px;
