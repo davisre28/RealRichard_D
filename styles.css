@@ -117,7 +117,7 @@ p {
 .dropbtn {
   background-color: #DC143C;
   color: white;
-  padding: 16px;
+  padding: 14px;
   font-size: 16px;
   border: none;
 }
@@ -133,7 +133,7 @@ p {
   display: none;
   position: absolute;
   background-color: #A9A9A9;
-  min-width: 120px;
+  min-width: 100px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
 }
@@ -141,7 +141,7 @@ p {
 /* Links inside the dropdown */
 .dropdown-content a {
   color: white;
-  padding: 12px 16px;
+  padding: 12px 14px;
   text-decoration: none;
   display: block;
 }
@@ -153,4 +153,4 @@ p {
 .dropdown:hover .dropdown-content {display: block;}
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
-.dropdown:hover .dropbtn {background-color: #DC143C;}
+.dropdown:hover .dropbtn {background-color: #0000CD;}
