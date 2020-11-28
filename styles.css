@@ -121,9 +121,6 @@ p {
 .Portfolio {
   text-align: center;
 }
-.dropbtn {
-  text-align: left;
-}
 .post-container:nth-child(even) {
   background-color: #f2f2f2;
 }
