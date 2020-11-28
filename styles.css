@@ -121,9 +121,6 @@ p {
 .Portfolio {
   text-align: center;
 }
-.dropbtn {
-  text-align: center;
-}
 .post-container:nth-child(even) {
   background-color: #f2f2f2;
 }
@@ -131,10 +128,10 @@ p {
 .dropbtn {
   font-family: 'Montserrat', sans-serif;
   letter-spacing: 0.1em;
+  text-align: left;
   background-color: #DC143C;
   color: white;
   padding: 14px;
-  padding-left: -10px;
   font-size: 16px;
   border: none;
 }
