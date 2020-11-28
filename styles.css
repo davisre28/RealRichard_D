@@ -134,7 +134,7 @@ p {
   background-color: #DC143C;
   color: white;
   padding: 14px;
-  padding-right: -10px;
+  padding-left: -10px;
   font-size: 16px;
   border: none;
 }
