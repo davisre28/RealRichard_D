@@ -47,7 +47,7 @@ position: relative;
 }
 #header-nav li {
   display: inline;
-  padding-right: 40px;
+  padding-right: 5px;
 }
 .container {
   max-width: 1000px;
