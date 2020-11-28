@@ -87,7 +87,15 @@ a:hover {
   height: 200px;
   vertical-align: middle;
 }
+.post, .Portfolio {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 60px 0;
+}
 .post-author img, .SupportMe-author img {
+  border-radius: 50%;
+}
+.post-author img, .Portfolio-author img {
   border-radius: 50%;
 }
 .post-author span {
@@ -108,6 +116,9 @@ p {
   line-height:1.5;
 }
 .SupportMe {
+  text-align: center;
+}
+.Portfolio {
   text-align: center;
 }
 .post-container:nth-child(even) {
