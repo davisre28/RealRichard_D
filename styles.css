@@ -7,6 +7,7 @@ body {
 }
 
 .w3-content{position:relative;margin-top:0em;}
+.w3-button{padding:20px 20px}
 /*.w3-btn,.w3-button{border:none;display:inline-block;outline:0;padding:8px 16px;vertical-align:middle;overflow:hidden;text-decoration:none;color:inherit;background-color:inherit;text-align:center;cursor:pointer;white-space:nowrap}
 .w3-btn,.w3-button{-webkit-touch-callout:none;-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none} 
 .w3-disabled,.w3-btn:disabled,.w3-button:disabled{cursor:not-allowed;opacity:0.3}.w3-disabled *,:disabled *{pointer-events:none}
@@ -47,7 +48,7 @@ position: relative;
 }
 #header-nav li {
   display: inline;
-  padding-right: 5px;
+  padding-right: 20px;
 }
 .container {
   max-width: 1000px;
