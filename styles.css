@@ -167,3 +167,19 @@ p {
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {background-color: #0000CD;}
+
+div.a {
+  text-align: center;
+}
+
+div.b {
+  text-align: left;
+}
+
+div.c {
+  text-align: right;
+}
+
+div.c {
+  text-align: justify;
+}
