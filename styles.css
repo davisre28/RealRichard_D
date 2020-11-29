@@ -119,7 +119,7 @@ p {
   text-align: center;
 }
 .Portfolio {
-  text-align: center;
+  text-align: left;
 }
 .post-container:nth-child(even) {
   background-color: #f2f2f2;
