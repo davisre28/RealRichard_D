@@ -31,6 +31,7 @@ position: relative;
     text-decoration: none;
     text-transform: uppercase;
     letter-spacing: 0.1em;
+    color: #FFFFFF;
   }
   #header a:hover {
     color: #222;
@@ -123,7 +124,7 @@ p {
   text-align: center;
 }
 .post-container:nth-child(even) {
-  background-color: #FFFFFF; /*#f2f2f2;*/
+  background-color: #f2f2f2;
 }
 /* Dropdown Button */
 .dropbtn {
