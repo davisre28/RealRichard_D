@@ -1,6 +1,6 @@
 @import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
 body {
-  color: #000000;
+  color: #555;
   margin: 0;
 
   font-family: 'Montserrat', sans-serif;
@@ -21,7 +21,7 @@ position: relative;
 .w3-display-left {left:0}*/
 
 #header {
-  background-color: #DC143C;
+  background-color: #000000; /*#DC143C;*/
   height: 50px;
   line-height: 50px;
   }
