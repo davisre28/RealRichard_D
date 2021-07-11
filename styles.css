@@ -27,6 +27,7 @@ position: relative;
   background-color: #DC143C;
   height: 50px;
   line-height: 50px;
+  color: #FFFFFF;
   }
   #header a {
     color: white;
@@ -43,6 +44,7 @@ position: relative;
   float: left;
   font-size: 20px;
   font-weight: bold;
+  color: #FFFFFF;
 }
 #header-nav {
   display: block;
