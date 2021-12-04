@@ -1,3 +1,0 @@
-<form action="/action_SUICIDE.php" method="get">
-   <input type="person" id="millennial" name="me"><br><br>
-</form>
