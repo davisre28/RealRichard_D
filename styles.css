@@ -66,12 +66,12 @@ p {color: #FFFFFF; }
 }
 /*link active*/
 a{
-  color: #0000ff;
+  color: #00851a;
   text-decoration: none;
 }
 /*link hover*/
 a:hover {
-  color: #ff0000;
+  color: #0000ff;
   text-decoration: underline;
 }
 .post, .SupportMe {
