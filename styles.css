@@ -64,12 +64,15 @@ p {color: #FFFFFF; }
 #footer p {
   color: white;
 }
-a {
-  color: #1abc9c;
+/*link active*/
+a{
+  color: #0E27E5;
   text-decoration: none;
 }
+/*link hover*/
 a:hover {
-  color: #F6A623;
+  color: #16D8E7;
+  text-decoration: underline;
 }
 .post, .SupportMe {
   max-width: 800px;
