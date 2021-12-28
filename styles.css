@@ -72,7 +72,7 @@ a{
 /*link hover*/
 a:hover {
   color: #0000ff;
-  text-decoration: underline;
+  /*text-decoration: underline;*/
 }
 .post, .SupportMe {
   max-width: 800px;
