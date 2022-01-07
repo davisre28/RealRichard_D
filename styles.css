@@ -41,7 +41,9 @@ p {color: #FFFFFF; }
 }
 #header-nav li {
   display: inline;
-  padding-right: 20px;
+  padding: 0;
+  /*padding-right: 20px;*/
+  /*padding-left: 20px;*/
 }
 .container {
   max-width: 1000px;
@@ -49,7 +51,7 @@ p {color: #FFFFFF; }
 }
 #footer {
   background-color: #2f2f2f;
-  padding: 50px 0;
+  padding: 0; /*50px removed*/
 }
 .column {
   min-width: 300px;
