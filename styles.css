@@ -117,7 +117,7 @@ ul li:hover {
   display: none;
   position: absolute;
   top: 50px;
-  left: 0;
+  right: 0; /* was left: 0; */
   height: calc(100vh - 50px);
   width: 100%;
 }
