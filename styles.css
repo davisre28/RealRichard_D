@@ -154,8 +154,6 @@ ul li:hover {
   min-width: 300px;
   display: inline-block;
   vertical-align: top;
-  padding-left: 20px; /*added*/
-  padding-right: 20px; /*added*/
 }
 #footer h4 {
   color: white;
@@ -221,6 +219,8 @@ p {
 }
 .post-container:nth-child(even) {
   background-color: #f2f2f2;
+  padding-left: 20px; /*added*/
+  padding-right: 20px; /*added*/
 }
 /* Dropdown Button */
 .dropbtn {
