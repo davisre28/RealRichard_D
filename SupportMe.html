@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-  <head>
+  <head width = "device-width">
     <title>Hacking Life</title>
     <link rel="apple-touch-icon" sizes="57x57" href="CRISPR Favicon/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="CRISPR Favicon/apple-icon-60x60.png">
@@ -19,37 +19,68 @@
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="CRISPR Favicon/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
-    <link rel="stylesheet" type="text/css" href="styles.css">
+    <meta charset="UTF-8" /> <!--added start -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />  <!--added end -->
+    <link rel="stylesheet" href="styles.css"> <!-- removed from middle: type="text/css" -->
     <class="w3-content">
-      <img class="mySlides" src="SGD Banner.jpg" height="240" alt="custom_html_banner1" style="width:100%">
+      <!-- <img class="mySlides" src="SGD Banner.jpg" alt="custom_html_banner1" width = "device-width" style="max-width:100%;height:auto;">   <!-- removed: height="240" style="width:100%"-->
   </head>
-  <body>
+  <body width = "device-width">
+   <header>  <!--added-->
     <div id="header">
       <div class="container">
         <a id="header-title" href="index.html">My Blog</a>
+	<nav> <!--added-->
         <ul id="header-nav">
           <li><a href="SupportMe.html">Support Me</a></li>
-	  <li><a href="Portfolio.html">Portfolio</a></li>
-          <div class="dropdown">
-            <button class="dropbtn">MY LINKS</button>
-            <div class="dropdown-content">
-              <a href="https://bit.ly/2ywligz" target="_blank">YouTube</a>
-              <!--a href="https://www.facebook.com/RealRichardDavis" target="_blank">Facebook</a-->
-              <a href="https://twitter.com/RealRichard_D" target="_blank">Twitter</a>
-              <a href="https://www.instagram.com/realrichard_d" target="_blank">Instagram</a>
-              <a href="https://odysee.com/@realrichard_d:3" target="_blank">Odysee</a>
-	      <!--a href="https://www.pinterest.com/RealRichardD/" target="_blank">Pinterest</a-->
-              <!--a href="https://linkedin.com/in/RealRichardD" target="_blank">Linkedin</a-->
-	      <a href="https://amzn.to/3r1VKSI" target="_blank">Amazon</a>
-	      <!--a href="https://ebay.us/yRgreA" target="_blank">eBay</a-->
-              <a href="https://www.patreon.com/realrichard_d" target="_blank">Patreon</a>
-	      
-              
+          <li><a href="Portfolio.html">Portfolio</a></li>
+          <!--<li><a href="mailto:RealRichardD28@gmail.com">e-mail</a></li>-->
 		
-              <a href="mailto:RealRichardD28@gmail.com">e-mail</a>
-            </div>
+          <div class="dropdown">
+             <button class="dropbtn">MY LINKS</button>
+             <div class="dropdown-content">
+               <a href="https://bit.ly/2ywligz" target="_blank">YouTube</a>
+               <!--a href="https://www.facebook.com/RealRichardDavis" target="_blank">Facebook</a-->
+               <a href="https://twitter.com/RealRichard_D" target="_blank">Twitter</a>
+               <a href="https://www.instagram.com/realrichard_d" target="_blank">Instagram</a>
+               <a href="https://odysee.com/@realrichard_d:3" target="_blank">Odysee</a>
+               <!--a href="https://www.pinterest.com/RealRichardD/" target="_blank">Pinterest</a-->
+               <!--a href="https://linkedin.com/in/RealRichardD" target="_blank">Linkedin</a-->
+	       <a href="https://amzn.to/3r1VKSI" target="_blank">Amazon</a>
+	       <!--a href="https://ebay.us/yRgreA" target="_blank">eBay</a-->
+               <a href="https://www.patreon.com/realrichard_d" target="_blank">Patreon</a>
+               <a href="mailto:RealRichardD28@gmail.com">e-mail</a>
+             </div>
           </div>  
-        <ul/>
+         <ul/>
+	</nav>	<!--added-->
+		<div id="hamburger-icon" onclick="toggleMobileMenu(this)">  <!--added start-->
+        	<div class="bar1"></div>
+        	<div class="bar2"></div>
+        	<div class="bar3"></div>
+        	<ul class="mobile-menu">
+           	 <p>
+			 <li><a href="SupportMe.html"><font size="+2"><b><u>Support Me</u></b></font></a></li>
+			 <li><a href="Portfolio.html"><font size="+2"><b><u>Portfolio</u></b></font></a></li>
+		 </p>
+		               <a href="https://bit.ly/2ywligz" target="_blank">YouTube</a>
+			       <!--a href="https://www.facebook.com/RealRichardDavis" target="_blank">Facebook</a-->
+			       <a href="https://twitter.com/RealRichard_D" target="_blank">Twitter</a>
+			       <a href="https://www.instagram.com/realrichard_d" target="_blank">Instagram</a>
+			       <a href="https://odysee.com/@realrichard_d:3" target="_blank">Odysee</a>
+			       <!--a href="https://www.pinterest.com/RealRichardD/" target="_blank">Pinterest</a-->
+			       <!--a href="https://linkedin.com/in/RealRichardD" target="_blank">Linkedin</a-->
+			       <a href="https://amzn.to/3r1VKSI" target="_blank">Amazon</a>
+			       <!--a href="https://ebay.us/yRgreA" target="_blank">eBay</a-->
+			       <a href="https://www.patreon.com/realrichard_d" target="_blank">Patreon</a>
+			       <a href="mailto:RealRichardD28@gmail.com">e-mail</a>
+			
+		</ul>
+	      </div>	
+		
+		</header> 
+	      <script src="index.js"></script> <!--added end-->	
       </div>
     </div>
     <div id="content">
