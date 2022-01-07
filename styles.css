@@ -209,12 +209,14 @@ a:hover {
 }
 h1, h2, h3, h4 {
   color: #FFFFFF;
+  padding-left: 20px; /*added*/
+  padding-right: 20px; /*added*/
 }
 p {
   line-height:1.5;
 }
 .SupportMe {
-  text-align: center;
+  text-align: left;
   padding-left: 20px; /*added*/
   padding-right: 20px; /*added*/
 }
