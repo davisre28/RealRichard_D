@@ -57,6 +57,11 @@ p {
   padding-right: 20px;
 }
 
+video { /* added */
+  width: 100%;
+  height: auto;
+}
+
 ul {  /*added start*/
   list-style: none;
   height: 100%;
