@@ -36,6 +36,7 @@ p {color: #FFFFFF; }
 #header-title {
   display: block;
   float: left;
+  padding-left: 20px;
   font-size: 20px;
   font-weight: bold;
   color: #FFFFFF;
