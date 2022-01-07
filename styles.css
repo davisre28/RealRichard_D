@@ -51,7 +51,7 @@ p {color: #FFFFFF; }
   padding-right: 20px;
 }
 
-/* ul {  /*added start
+ul {  /*added start*/
   list-style: none;
   height: 100%;
   display: flex;
@@ -71,7 +71,7 @@ ul li {
 ul li:hover {
   transform: scale(1.1);
   transition: 0.3s;
-}  */
+}
 
 #hamburger-icon {
   margin: auto 0;
