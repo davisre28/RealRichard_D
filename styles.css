@@ -15,8 +15,6 @@ body {
 
 p {
   color: #FFFFFF; 
-  padding-left: 20px; /*added*/
-  padding-right: 20px; /*added*/
 }
 
 .w3-content{position:relative;margin-top:0em;}
@@ -156,6 +154,8 @@ ul li:hover {
   min-width: 300px;
   display: inline-block;
   vertical-align: top;
+  padding-left: 20px; /*added*/
+  padding-right: 20px; /*added*/
 }
 #footer h4 {
   color: white;
