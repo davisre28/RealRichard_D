@@ -184,6 +184,7 @@ a:hover {
   width: 200px;
   height: 200px;
   vertical-align: middle;
+  padding-left: 20px; /*added*/
 }
 .post, .Portfolio {
   max-width: 800px;
