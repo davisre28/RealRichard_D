@@ -15,6 +15,8 @@ body {
 
 p {
   color: #FFFFFF; 
+  padding-left: 20px; /*added*/
+  padding-right: 20px; /*added*/
 }
 
 .w3-content{position:relative;margin-top:0em;}
@@ -211,11 +213,15 @@ h1, h2, h3, h4 {
 p {
   line-height:1.5;
 }
-/*.SupportMe {
-  text-align: center;*/
+.SupportMe {
+  text-align: center;
+  padding-left: 20px; /*added*/
+  padding-right: 20px; /*added*/
 }
 .Portfolio {
   text-align: center;
+  padding-left: 20px; /*added*/
+  padding-right: 20px; /*added*/
 }
 .post-container:nth-child(even) {
   background-color: #f2f2f2;
