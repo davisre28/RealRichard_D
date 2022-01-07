@@ -9,13 +9,15 @@ body {
   background-color: black;
   color: #FFFFFF;
   margin: 0;
-  padding-left: 20px; /*added*/
-  padding-right: 20px; /*added*/
 
   font-family: 'Montserrat', sans-serif;
 }
 
-p {color: #FFFFFF; }
+p {
+  color: #FFFFFF; 
+  padding-left: 20px; /*added*/
+  padding-right: 20px; /*added*/
+}
 
 .w3-content{position:relative;margin-top:0em;}
 
