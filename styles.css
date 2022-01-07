@@ -108,8 +108,10 @@ ul li:hover {
 .open .mobile-menu {
   display: flex;
   flex-direction: column;
-  align-items: right;
+  align-items: center;
   justify-content: flex-start;
+  float: right; /*added*/
+  padding: 14px; /*added*/
 }
 
 .mobile-menu {
