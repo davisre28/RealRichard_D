@@ -76,7 +76,7 @@ ul li:hover {
 }
 
 #hamburger-icon {
-  margin: -10px 0px; /* was auto 0; */
+  margin: -5px 0px; /* was auto 0; */
   display: none;
   float: right; /*added*/
   padding: 14px; /*added*/
