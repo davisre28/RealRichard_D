@@ -9,6 +9,8 @@ body {
   background-color: black;
   color: #FFFFFF;
   margin: 0;
+  padding-left: 20px; /*added*/
+  padding-right: 20px; /*added*/
 
   font-family: 'Montserrat', sans-serif;
 }
