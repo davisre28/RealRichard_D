@@ -79,6 +79,7 @@ ul li:hover {
   margin: auto 0;
   display: none;
   float: right; /*added*/
+  padding: 14px; /*added*/
   cursor: pointer;
 }
 
