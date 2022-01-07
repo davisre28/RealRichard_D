@@ -52,13 +52,12 @@ p {color: #FFFFFF; }
   margin-top: 0;
 }
 #header-nav li {
-  /*display: inline;*/
-  display: flex; /*added*/
+  display: inline;
   padding: 0;
   padding-right: 20px;
 }
 
-ul {  /*added start*/
+/* ul {  /*added start
   list-style: none;
   height: 100%;
   display: flex;
@@ -78,7 +77,7 @@ ul li {
 ul li:hover {
   transform: scale(1.1);
   transition: 0.3s;
-}  
+}  */
 
 #hamburger-icon {
   margin: auto 0;
