@@ -80,7 +80,7 @@ ul li:hover {
   display: none;
   float: right; /*added*/
   padding: 14px; /*added*/
-  top: -5px; /*added*/
+  top: -20px; /*added*/
   cursor: pointer;
 }
 
