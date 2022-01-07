@@ -37,17 +37,14 @@ p {color: #FFFFFF; }
     color: #222;
   }
 #header-title {
-  /*display: block;
-  float: left;*/
-  display: flex;
-  align-items: center;
+  display: block;
+  float: left;
   font-size: 20px;
   font-weight: bold;
   color: #FFFFFF;
 }
 #header-nav {
-  /*display: block;*/
-  display: flex; /*added*/
+  display: block;
   float: right;
   margin-top: 0;
 }
