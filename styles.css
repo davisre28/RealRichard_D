@@ -281,3 +281,8 @@ p {
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {background-color: #0000CD;}
+
+.responsive {
+  max-width: 100%;
+  height: auto;
+}
