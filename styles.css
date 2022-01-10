@@ -188,7 +188,7 @@ a:hover {
 .post-author img {
   width: 200px;
   height: 200px;
-  vertical-align: middle;
+  vertical-align: baseline; /*removed: middle; */
   padding-left: 20px; /*added*/
 }
 .post, .Portfolio {
