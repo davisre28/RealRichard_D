@@ -189,7 +189,7 @@ a:hover {
   width: 200px;
   height: 200px;
   vertical-align: middle;
-  padding-left: 20px; /*added*/
+  /*padding-left: 20px; /*added*/
 }
 .post, .Portfolio {
   max-width: 800px;
@@ -215,8 +215,8 @@ a:hover {
 }
 h1, h2, h3, h4 {
   color: #FFFFFF;
-  /*padding-left: 20px; /*added*/
-  /*padding-right: 20px; /*added*/
+  padding-left: 20px; /*added*/
+  padding-right: 20px; /*added*/
 }
 p {
   line-height:1.5;
