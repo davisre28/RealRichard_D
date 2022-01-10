@@ -241,7 +241,7 @@ p {
 .dropbtn {
   font-family: 'Montserrat', sans-serif;
   letter-spacing: 0.1em;
-  /*background-color: #DC143C;*/
+  background-color: #AARRGGBB; /* #DC143C; */
   color: white;
   padding: 14px;
   font-size: 16px;
