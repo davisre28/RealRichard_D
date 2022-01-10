@@ -136,6 +136,10 @@ ul li:hover {
 }
 
 @media only screen and (max-width: 600px) {
+  head banner {
+    display: none;
+  }
+  
   header nav {
     display: none;
   }
