@@ -29,7 +29,6 @@ p {
   }
   #header a {
     color: white;
-    background-color: #DC143C;
     text-decoration: none;
     text-transform: uppercase;
     letter-spacing: 0.1em;
@@ -276,7 +275,7 @@ p {
 }
 
 /* Change color of dropdown links on hover */
-.dropdown-content a:hover {background-color: #DC143C;}
+/*.dropdown-content a:hover {background-color: #DC143C;}*/
 
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {display: block;}
