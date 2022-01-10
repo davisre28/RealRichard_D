@@ -29,6 +29,7 @@ p {
   }
   #header a {
     color: white;
+    background-color: #DC143C;
     text-decoration: none;
     text-transform: uppercase;
     letter-spacing: 0.1em;
