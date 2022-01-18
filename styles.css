@@ -310,16 +310,15 @@ p {
   height: 100%;
 }
 
-/* Social Media Icons (round) start */
+/* Social Media Icons start */
 
 .fa {
   padding: 20px;
   font-size: 30px;
-  width: 30px;
+  width: 50px;
   text-align: center;
   text-decoration: none;
   margin: 5px 2px;
-  border-radius: 50%;
 }
 
 .fa:hover {
@@ -432,4 +431,4 @@ p {
   color: white;
 }
 
-/* Social Media Icons (round) end */
+/* Social Media Icons end */
