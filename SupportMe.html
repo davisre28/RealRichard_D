@@ -1,5 +1,18 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <script src="/js/prebid-ads.js"></script>
+  </head>
+  <body>
+    <script>
+      if( window.canRunAds === undefined ){
+        // adblocker detected, show fallback
+        showFallbackImage();
+      }
+    </script>
+  </body>
+</html>
+<html>
   <head width = "device-width">
     <title>Hacking Life</title>
     <link rel="apple-touch-icon" sizes="57x57" href="CRISPR Favicon/apple-icon-57x57.png">
