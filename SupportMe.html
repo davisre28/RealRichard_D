@@ -1,14 +1,13 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <script src="/js/prebid-ads.js"></script>
+    <script src="/adsense.js"></script>
   </head>
   <body>
     <script>
-      if( window.canRunAds === undefined ){
-        // adblocker detected, show fallback
-        showFallbackImage();
-      }
+     if( window.adblockDetecter === undefined ){
+     // Do anithing, adblocker detected!
+     alert('Adblocker Detected!');}
     </script>
   </body>
 </html>
