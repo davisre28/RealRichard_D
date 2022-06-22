@@ -41,7 +41,8 @@ p {
   }
   #header a:hover {
     /*DARK MODE: color: #222; */
-    color: #FFFFFF;
+    color: #000000;
+    text-decoration: underline; /*added*/
   }
 #header-title {
   display: block;
