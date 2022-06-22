@@ -6,15 +6,18 @@
   box-sizing: border-box;
 }     /*added*/
 body {
-  background-color: black;
-  color: #FFFFFF;
+  /*DARK MODE: background-color: black;
+  color: #FFFFFF; */
+  background-color: white;
+  color: #000000;
   margin: 0;
 
   font-family: 'Montserrat', sans-serif;
 }
 
 p {
-  color: #FFFFFF; 
+  /*DARK MODE: color: #FFFFFF; */
+  color: #000000;
   padding-left: 20px; /*added*/
   padding-right: 20px; /*added*/
 }
@@ -175,12 +178,14 @@ ul li:hover {
 }
 /*link active*/
 a{
-  color: #5BEF78;
+  /* DARK MODE: color: #5BEF78; */
+  color: #0000ff;
   text-decoration: none;
 }
 /*link hover*/
 a:hover {
-  color: #0000ff;
+  /*DARK MODE: color: #0000ff; */
+  color: #5BEF78;
   text-decoration: underline;
 }
 .post, .SupportMe {
@@ -217,7 +222,7 @@ a:hover {
   letter-spacing: 0.1em;
 }
 h1, h2, h3, h4 {
-  color: #FFFFFF;
+  color: #000000; /*DARK MODE: color: #FFFFFF;*/ /*text color*/
   padding-left: 20px; /*added*/
   padding-right: 20px; /*added*/
 }
