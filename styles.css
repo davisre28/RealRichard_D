@@ -28,17 +28,20 @@ p {
   background-color: #DC143C;
   height: 50px;
   line-height: 50px;
-  color: #FFFFFF;
+  /*DARK MODE: color: #FFFFFF; */
+  color: #000000;
   }
   #header a {
     color: white;
     text-decoration: none;
     text-transform: uppercase;
     letter-spacing: 0.1em;
-    color: #FFFFFF;
+    /*DARK MODE: color: #FFFFFF; */
+    color: #000000;
   }
   #header a:hover {
-    color: #222;
+    /*DARK MODE: color: #222; */
+    color: #FFFFFF;
   }
 #header-title {
   display: block;
@@ -46,7 +49,8 @@ p {
   padding-left: 20px;
   font-size: 20px;
   font-weight: bold;
-  color: #FFFFFF;
+  /*DARK MODE: color: #FFFFFF; */
+  color: #000000;
 }
 #header-nav {
   display: block;
@@ -75,7 +79,8 @@ ul {  /*added start*/
 }  
 
 ul a {
-  color: white;
+  /*DARK MODE: color: white; */
+  color: black;
 }
 
 ul li {
@@ -248,8 +253,10 @@ p {
 .dropbtn {
   font-family: 'Montserrat', sans-serif;
   letter-spacing: 0.1em;
+  /*DARK MODE: background-color: #DC143C; */
   background-color: #DC143C;
-  color: white;
+  /*DARK MODE: color: white; */
+  color: black;
   padding: 14px;
   font-size: 16px;
   border: none;
@@ -275,7 +282,8 @@ p {
 
 /* Links inside the dropdown */
 .dropdown-content a {
-  color: white;
+  /*DARK MODE: color: white; */
+  color: black;
   padding: 12px 12px;
   text-decoration: none;
   display: block;
@@ -284,7 +292,8 @@ p {
 }
 
 /* Change color of dropdown links on hover */
-.dropdown-content a:hover {background-color: #DC143C;}
+/*DARK MODE: .dropdown-content a:hover {background-color: #DC143C;} */
+.dropdown-content a:hover {background-color: #0000CD;}
 
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {display: block; border-radius: 30px; /* added */}
