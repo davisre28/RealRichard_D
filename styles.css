@@ -293,8 +293,7 @@ p {
 }
 
 /* Change color of dropdown links on hover */
-/*DARK MODE: .dropdown-content a:hover {background-color: #DC143C;} */
-.dropdown-content a:hover {background-color: #0000CD;}
+DARK MODE: .dropdown-content a:hover {background-color: #DC143C;}
 
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {display: block; border-radius: 30px; /* added */}
