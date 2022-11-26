@@ -476,7 +476,7 @@ DARK MODE: .dropdown-content a:hover {background-color: #DC143C;}
 
 /*Ad block detection start*/
   .modal-header, h4, .close {
-      background-color: #5cb85c;
+      background-color: #f70505;
       color:white !important;
       text-align: center;
   }
