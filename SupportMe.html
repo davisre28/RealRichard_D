@@ -1,39 +1,45 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <script src="/js/prebid-ads.js" type="text/javascript"></script>
+    <!--<script src="/js/prebid-ads.js" type="text/javascript"></script>-->
     <!--<script src="/js/ads.js" type="text/javascript"></script>-->
   </head>
   <body>
-    <script type="text/javascript">
+	<div class="adbn-wrap">
+	<div>
+	<p>We have detected an adblocker in your browser, <br/>ad revenue is used for content creation and hosting of this site. Please consider turning Adblock off to view all affiliate links and support the cause.</p>
+	<button id="adbnrb" type="button" name="button">I've disabled AdBlocker</button>
+	</div>
+	</div>
+    <script>
 	    <!--if ( !document.getElementById('test-block') ) {
 		<!--document.getElementById('banner-12345').style.display='block';
 	    <!--}
-      if( window.canRunAds === undefined ){
+      <!--if( window.canRunAds === undefined ){
         // adblocker detected, show fallback
         //showFallbackImage();
-	alert('Adblocker Detected! Ad revenue is used for content creation and hosting of this site. Please consider turning Adblock off to view all affiliate links and support the cause.');
-      
+	<!--alert('Adblocker Detected! Ad revenue is used for content creation and hosting of this site. Please consider turning Adblock off to view all affiliate links and support the cause.');
+      <!--}
 	  
-	      fetch('http://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js').catch(() => {
-		let adp_underlay = document.createElement('div');
-		adp_underlay.className = 'adp-underlay';
-		document.body.appendChild(adp_underlay);
-		let adp = document.createElement('div');
-		adp.className = 'adp';
-		adp.innerHTML = `
-			<h3>Ad Blocker Detected!</h3>
-			<p>Ad revenue is used for content creation and hosting of this site. Please consider turning Adblock off to view all affiliate links and support the cause.</p>
-			<a href="#">Okay</a>
-		`;
-		document.body.appendChild(adp);
-		adp.querySelector('a').onclick = e => {
-			e.preventDefault();
-			document.body.removeChild(adp_underlay);
-			document.body.removeChild(adp);
-			};
-		});
-      	}
+      try {
+        var request = new Request(
+          "http://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js",
+          { method: "HEAD", mode: "no-cors" }
+        );
+        fetch(request)
+          .then(function (request) {
+          })
+          .catch(function (request) {
+	     let adbnwrap = document.querySelector(".adbn-wrap");
+             adbnwrap.style.display = "flex";
+          });
+      } catch (err) {
+      }
+      let adbnrefresh = document.querySelector("#adbnrb");
+      adbnrefresh.addEventListener("click", function () {
+        location.reload();
+      });
+      	
     </script>
   </body>
 </html>
