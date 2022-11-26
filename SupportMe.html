@@ -22,6 +22,27 @@
         //showFallbackImage();
 	<!--alert('Adblocker Detected! Ad revenue is used for content creation and hosting of this site. Please consider turning Adblock off to view all affiliate links and support the cause.');
       <!--}
+	var detector = function() {
+	    setTimeout(function() {
+
+		if(!document.getElementsByClassName) return;
+		var ads = document.getElementsByClassName('banner_ad'),
+		    ad  = ads[ads.length - 1];
+
+		if(!ad || ad.innerHTML.length == 0
+				|| ad.clientHeight === 0) {
+		    $("#myModal").modal("show");
+		    $("#no-button").click(function(){
+			$("#myModal").modal("hide");
+		    });
+
+		    $("#ok-button").click(function(){
+			window.location.reload();
+		    });
+		}
+
+	    }, 2000);
+	}
     </script>
 	<div class="modal fade" id="myModal" role="dialog" 
 						data-backdrop="static">
