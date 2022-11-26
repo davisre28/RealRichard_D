@@ -13,26 +13,27 @@
         // adblocker detected, show fallback
         //showFallbackImage();
 	alert('Adblocker Detected! Ad revenue is used for content creation and hosting of this site. Please consider turning Adblock off to view all affiliate links and support the cause.');
-      }
+      
 	  
-      fetch('http://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js').catch(() => {
-	let adp_underlay = document.createElement('div');
-	adp_underlay.className = 'adp-underlay';
-	document.body.appendChild(adp_underlay);
-	let adp = document.createElement('div');
-	adp.className = 'adp';
-	adp.innerHTML = `
-		<h3>Ad Blocker Detected!</h3>
-		<p>Ad revenue is used for content creation and hosting of this site. Please consider turning Adblock off to view all affiliate links and support the cause.</p>
-		<a href="#">Okay</a>
-	`;
-	document.body.appendChild(adp);
-	adp.querySelector('a').onclick = e => {
-		e.preventDefault();
-		document.body.removeChild(adp_underlay);
-		document.body.removeChild(adp);
-		};
-	});
+	      fetch('http://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js').catch(() => {
+		let adp_underlay = document.createElement('div');
+		adp_underlay.className = 'adp-underlay';
+		document.body.appendChild(adp_underlay);
+		let adp = document.createElement('div');
+		adp.className = 'adp';
+		adp.innerHTML = `
+			<h3>Ad Blocker Detected!</h3>
+			<p>Ad revenue is used for content creation and hosting of this site. Please consider turning Adblock off to view all affiliate links and support the cause.</p>
+			<a href="#">Okay</a>
+		`;
+		document.body.appendChild(adp);
+		adp.querySelector('a').onclick = e => {
+			e.preventDefault();
+			document.body.removeChild(adp_underlay);
+			document.body.removeChild(adp);
+			};
+		});
+      	}
     </script>
   </body>
 </html>
