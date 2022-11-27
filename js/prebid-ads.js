@@ -1,1 +1,1 @@
-var canRunAds = true;
+var adsAreWithUs = true;
