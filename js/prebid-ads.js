@@ -1,1 +1,1 @@
-var adsAreWithUs = true;
+var MoMoney = true;
