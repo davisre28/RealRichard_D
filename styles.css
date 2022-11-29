@@ -300,7 +300,7 @@ DARK MODE: .dropdown-content a:hover {background-color: #DC143C;}
 .dropdown:hover .dropdown-content {display: block; border-radius: 30px; /* added */}
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
-.dropdown:hover .dropbtn {background-color: #DC143C; font-weight: bold;} /*was 0000CD: Blue added font-weight*/
+.dropdown:hover .dropbtn {background-color: #DC143C; font-weight: bold; text-decoration: underline;} /*was 0000CD: Blue added: font-weight & text-decoration*/
 
 .responsive {
   max-width: 100%;
