@@ -34,7 +34,7 @@ p {
   #header a {
     color: white;
     text-decoration: none;
-    text-transform: uppercase;
+    /*text-transform: uppercase; removed*/
     letter-spacing: 0.1em;
     /*DARK MODE: color: #FFFFFF; */
     color: #FFFFFF; /*was 000000 BLACK*/
@@ -49,7 +49,7 @@ p {
   float: left;
   padding-left: 20px;
   font-size: 20px;
-  font-weight: bold;
+  /*font-weight: bold; removed*/
   /*DARK MODE: color: #FFFFFF; */
   color: #000000;
 }
