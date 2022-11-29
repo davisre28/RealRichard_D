@@ -43,13 +43,14 @@ p {
     /*DARK MODE: color: #222; */
     color: #FFFFFF; /*was 000000 BLACK*/
     text-decoration: underline; /*added*/
+    font-weight: bold; /*added*/
   }
 #header-title {
   display: block;
   float: left;
   padding-left: 20px;
   font-size: 20px;
-  /*font-weight: bold; removed*/
+  font-weight: bold;
   /*DARK MODE: color: #FFFFFF; */
   color: #000000;
 }
@@ -57,7 +58,7 @@ p {
   display: block;
   float: right;
   margin-top: 0;
-  font-weight: bold; /*added*/
+  /*font-weight: bold; /*removed*/
   border-radius: 30px; /*added*/
 }
 #header-nav li {
@@ -261,7 +262,7 @@ p {
   padding: 14px;
   font-size: 16px;
   border: none;
-  font-weight: bold; /*added*/
+  /*font-weight: bold; /*removed*/
   border-radius: 30px; /* added */
 }
 
@@ -288,7 +289,7 @@ p {
   padding: 12px 12px;
   text-decoration: none;
   display: block;
-  font-weight: bold; /*added*/
+  /*font-weight: bold; /*removed*/
   border-radius: 30px; /* added */
 }
 
@@ -299,7 +300,7 @@ DARK MODE: .dropdown-content a:hover {background-color: #DC143C;}
 .dropdown:hover .dropdown-content {display: block; border-radius: 30px; /* added */}
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
-.dropdown:hover .dropbtn {background-color: #DC143C;} /*was 0000CD: Blue*/
+.dropdown:hover .dropbtn {background-color: #DC143C; font-weight: bold;} /*was 0000CD: Blue added font-weight*/
 
 .responsive {
   max-width: 100%;
