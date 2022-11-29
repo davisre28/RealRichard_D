@@ -25,11 +25,11 @@ p {
 .w3-content{position:relative;margin-top:0em;}
 
 #header {
-  background-color: #DC143C;
+  background-color: #0000CD; /*was DC143C RED*/
   height: 50px;
   line-height: 50px;
   /*DARK MODE: color: #FFFFFF; */
-  color: #000000;
+  color: #FFFFFF; /*was 000000 BLACK*/
   }
   #header a {
     color: white;
@@ -254,10 +254,10 @@ p {
 .dropbtn {
   font-family: 'Montserrat', sans-serif;
   letter-spacing: 0.1em;
-  /*DARK MODE: background-color: #DC143C; */
-  background-color: #DC143C;
+  /*RED: background-color: #DC143C; */
+  background-color: #0000CD;
   /*DARK MODE: color: white; */
-  color: black;
+  color: white; /*was black*/
   padding: 14px;
   font-size: 16px;
   border: none;
@@ -299,7 +299,7 @@ DARK MODE: .dropdown-content a:hover {background-color: #DC143C;}
 .dropdown:hover .dropdown-content {display: block; border-radius: 30px; /* added */}
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
-.dropdown:hover .dropbtn {background-color: #0000CD;}
+.dropdown:hover .dropbtn {background-color: #DC143C;} /*was 0000CD: Blue*/
 
 .responsive {
   max-width: 100%;
