@@ -37,11 +37,11 @@ p {
     text-transform: uppercase;
     letter-spacing: 0.1em;
     /*DARK MODE: color: #FFFFFF; */
-    color: #000000;
+    color: #FFFFFF; /*was 000000 BLACK*/
   }
   #header a:hover {
     /*DARK MODE: color: #222; */
-    color: #000000;
+    color: #FFFFFF; /*was 000000 BLACK*/
     text-decoration: underline; /*added*/
   }
 #header-title {
