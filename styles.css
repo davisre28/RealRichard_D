@@ -333,7 +333,7 @@ DARK MODE: .dropdown-content a:hover {background-color: #DC143C;}
 
 .fa {
   padding: 20px;
-  font-size: 30px;
+  font-size: 50px;
   width: 50px;
   text-align: center;
   text-decoration: none;
@@ -351,7 +351,7 @@ DARK MODE: .dropdown-content a:hover {background-color: #DC143C;}
 }
 
 .fa-twitter {
-  background: #55ACEE;
+  background: #000000;
   color: white;
 }
 
@@ -371,7 +371,7 @@ DARK MODE: .dropdown-content a:hover {background-color: #DC143C;}
 }
 
 .fa-instagram {
-  background: #125688;
+  background: #e95950;
   color: white;
 }
 
